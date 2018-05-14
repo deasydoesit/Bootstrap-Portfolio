@@ -193,7 +193,7 @@ input[type=submit]:hover {
     padding-bottom: 30px;
 }
 
-/* Contact Page
+/* Portfolio Page
 --------------------------------------*/
 .img-port {
     height: 85%; 
@@ -225,3 +225,18 @@ span {
         padding-right: 30px;
     }
   }
+
+@media screen and (max-width: 768px) {
+    .img-port {
+        height: 97%; 
+        width: 97%; 
+    }
+
+    span {
+        width: 97%; 
+    }
+
+    .margin-maker {
+        margin-bottom: 40px;
+    }
+}
